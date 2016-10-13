@@ -64,6 +64,18 @@
       </ScrollFactor>
       <ExportMode>CSV</ExportMode>
     </LayerDefinition>
+    <LayerDefinition xsi:type="TileLayerDefinition">
+      <Name>tilesabajo</Name>
+      <Grid>
+        <Width>16</Width>
+        <Height>16</Height>
+      </Grid>
+      <ScrollFactor>
+        <X>1</X>
+        <Y>1</Y>
+      </ScrollFactor>
+      <ExportMode>CSV</ExportMode>
+    </LayerDefinition>
     <LayerDefinition xsi:type="EntityLayerDefinition">
       <Name>entities</Name>
       <Grid>
@@ -74,6 +86,18 @@
         <X>1</X>
         <Y>1</Y>
       </ScrollFactor>
+    </LayerDefinition>
+    <LayerDefinition xsi:type="TileLayerDefinition">
+      <Name>estantes</Name>
+      <Grid>
+        <Width>16</Width>
+        <Height>16</Height>
+      </Grid>
+      <ScrollFactor>
+        <X>1</X>
+        <Y>1</Y>
+      </ScrollFactor>
+      <ExportMode>CSV</ExportMode>
     </LayerDefinition>
   </LayerDefinitions>
   <Tilesets>
@@ -97,7 +121,7 @@
     </Tileset>
     <Tileset>
       <Name>Pared2</Name>
-      <FilePath>pared 2.png</FilePath>
+      <FilePath>pared 2 (1).png</FilePath>
       <TileSize>
         <Width>75</Width>
         <Height>240</Height>
@@ -124,7 +148,16 @@
     </Tileset>
     <Tileset>
       <Name>Pared</Name>
-      <FilePath>pared.png</FilePath>
+      <FilePath>estante.png</FilePath>
+      <TileSize>
+        <Width>16</Width>
+        <Height>16</Height>
+      </TileSize>
+      <TileSep>0</TileSep>
+    </Tileset>
+    <Tileset>
+      <Name>monabajo</Name>
+      <FilePath>montaña al reves.png</FilePath>
       <TileSize>
         <Width>16</Width>
         <Height>16</Height>
