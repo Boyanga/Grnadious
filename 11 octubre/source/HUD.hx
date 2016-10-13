@@ -15,7 +15,7 @@ class HUD extends FlxSprite
 	public function new(?X:Float=0, ?Y:Float=0, ?SimpleGraphic:FlxGraphicAsset) 
 	{
 		super(X, Y, SimpleGraphic);
-		makeGraphic(256,16,FlxColor.BLACK);
+		makeGraphic(256,17,FlxColor.BLACK);
 		scrollFactor.x = 0;
 		scrollFactor.y = 0;
 	}

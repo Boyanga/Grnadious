@@ -8,9 +8,9 @@ import flixel.ui.FlxButton;
 import flixel.math.FlxMath;
 import flixel.addons.editors.ogmo.FlxOgmoLoader;
 import flixel.tile.FlxTilemap;
-import sprites.Player;
+import Player.Player;
 import flixel.FlxObject;
-import sprites.Bullet;
+import Player.Bullet;
 import flixel.group.FlxGroup;
 
 class MenuState extends FlxState
